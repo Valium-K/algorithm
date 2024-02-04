@@ -2,6 +2,7 @@
 Depth-First Search 로 stack을 이용한 깊이 우선탐색이다.     
 다음 간선으로 넘어가기 전에 해당 간선을 완전탐색한다.  
 아래의 그래프를 DFS로 순회하는 코드는 다음과 같다.
+
 ![.data/img_2.png](./.data/img_2.png)
 
 ```python
@@ -41,6 +42,7 @@ Breadth-First Search 로 Queue를 이용한 너비 우선 탐색이다.
 해당 노드에 인접한 노드를 우선 탐색한다.     
 탐색이 root에서 퍼져나가는 느낌의 너비 우선 탐색이다.        
 아래의 그래프를 BFS로 순회하는 코드는 다음과 같다.
+
 ![.data/img_2.png](./.data/img_2.png)
 
 ```python
