@@ -3,11 +3,11 @@
 
 ## 구현
 
-![.data/img.png](img.png)
+![.data/img.png](./.data/img.png)
 
 행렬에 간선 값을 초기화한 후 최단 거리 정보를 저장한다. 다이나믹 프로그래밍 유형으로 각 단계마다 특정한 노드를 거쳐가는 경우와 거쳐가지 않는 경우를 비교하며 점화식은 `D_ab = min(D_ab, D_ak + D_kb)` 와 같다.
 
-![.data/img2.png](img2.png)
+![.data/img2.png](./.data/img2.png)
 
 ## 코드
 ```python
